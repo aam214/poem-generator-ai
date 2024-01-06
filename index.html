@@ -4,27 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>AI Poem Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+<title>AI Poem Generator</title>
   </head>
   <body>
+  
+    <header>
+    <h1>American Poetry Generator<div class="emoji">🖋️</div>
+     <form>
+      <input type="text" placeholder="Enter keywords" autofocus required class="type"/>
+      <input type="submit" autocomplete="off" class="click" />
+    </form>  
+    </h1>
+  </header>
     <main>
-    <h1>American Poetry Generator</h1>
-    <form>
-      <input type="text" placeholder="Enter keywords" autofocus required />
-      <input type="submit" autocomplete="off" />
-    </form>
-    <p>
-    <div class="poem">Whose woods these are I think I know.
+    <div class="poem"><em>Whose woods these are I think I know.
     </br>His house is in the village though; </br>He will not see me stopping here     
-    </div>
+    </em></div>
     </p>
-    </main>
-    <script src="index.js"></script>
+  </main>
     <footer>
       This AI project is coded by<a href="https://github.com/"> Ariana M. </a
       >and open-sourced on
       <a href="https://github.com/aam214/poem-generator-ai">Github</a> and live
       on <a href="https://poem-generator-ai.netlify.app/">Netlify</a>.
     </footer>
+    <script src="index.js"></script>
+    
+    </main>
   </body>
 </html>

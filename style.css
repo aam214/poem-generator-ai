@@ -1,0 +1,69 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/510/original/letters.jpg?1704563245);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Bitter", serif;
+}
+h1 {
+  margin-top: 40px;
+  color: #393e46;
+  padding-top: 25px;
+  line-height: 1.5;
+  font-size: 40px;
+}
+.emoji {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+header {
+  background: #fafaf3;
+  border-radius: 10px;
+  max-width: 1000px;
+  color: #2b4450;
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px rgba(2, 2, 0, 0.2);
+}
+main {
+  background: #fafaf3;
+  border-radius: 10px;
+  color: #2b4450;
+  padding-bottom: 50px;
+  max-width: 800px;
+
+  margin: 0 auto;
+  box-shadow: 10px 10px 20px rgba(2, 2, 0, 0.2);
+}
+form {
+  padding: 10px;
+  background-color: #ebeeb9;
+  border-radius: 10px;
+}
+.type {
+  font-size: 15px;
+  padding: 15px;
+  width: 25%;
+  border: none;
+  border-radius: 10px;
+  line-height: 12px;
+}
+.click {
+  padding: 15px;
+  background: #8cc4df;
+  color: white;
+  border: none;
+  width: 100px;
+  box-shadow: #393e46;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.poem {
+  padding-top: 80px;
+
+  margin-top: 90px;
+  line-height: 2.5;
+  font-size: 19px;
+}
+footer {
+  margin-top: 100px;
+}
