@@ -6,20 +6,22 @@ body {
   font-family: "Bitter", serif;
 }
 h1 {
-  margin-top: 40px;
+  margin-top: 10px;
   color: #393e46;
-  padding-top: 25px;
+  padding-top: 10px;
   line-height: 1.5;
   font-size: 40px;
 }
 .emoji {
   font-size: 30px;
   margin-bottom: 5px;
+  text-align: center;
+  margin-left: -110px;
 }
 header {
   background: #fafaf3;
   border-radius: 10px;
-  max-width: 1000px;
+  max-width: 800px;
   color: #2b4450;
   margin: 0 auto;
   box-shadow: 10px 10px 20px rgba(2, 2, 0, 0.2);
@@ -28,7 +30,7 @@ main {
   background: #fafaf3;
   border-radius: 10px;
   color: #2b4450;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   max-width: 800px;
 
   margin: 0 auto;
@@ -37,32 +39,39 @@ main {
 form {
   padding: 10px;
   border-radius: 10px;
+  display: flex;
+
+  justify-content: center;
 }
 .type {
   font-size: 15px;
   padding: 15px;
-  width: 25%;
-  border: none;
+  width: 30%;
+  border: black;
   border-radius: 10px;
   line-height: 12px;
 }
 .click {
   padding: 15px;
-  background: #8cc4df;
+  background: #5ec1f3;
   color: white;
   border: none;
   width: 100px;
+  margin-left: 10px;
   box-shadow: #393e46;
   font-size: 15px;
   border-radius: 20px;
 }
 .poem {
-  padding-top: 80px;
+  padding-top: 30px;
+  text-align: center;
 
-  margin-top: 90px;
-  line-height: 2.5;
-  font-size: 19px;
+  line-height: 2;
+  font-size: 18px;
 }
 footer {
-  margin-top: 100px;
+  margin-top: 700px;
+  font-size: 15px;
+
+  color: #7accf5;
 }
