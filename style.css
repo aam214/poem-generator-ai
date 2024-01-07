@@ -21,7 +21,7 @@ header {
   max-width: 800px;
   color: #2b4450;
   margin: 0 auto;
-  box-shadow: 10px 10px 20px rgba(2, 2, 0, 0.2);
+  box-shadow: 10px 10px 20px rgba(7, 7, 7, 0.2);
 }
 main {
   background: #fafaf3;
@@ -31,7 +31,7 @@ main {
   max-width: 600px;
 
   margin: 0 auto;
-  box-shadow: 10px 10px 20px rgba(2, 2, 0, 0.2);
+  box-shadow: 10px 10px 20px rgba(7, 7, 7, 0.2);
   display: none;
 }
 form {
