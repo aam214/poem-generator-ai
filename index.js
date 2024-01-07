@@ -3,7 +3,7 @@ function displayPoem(response) {
     strings: response.data.answer,
     autoStart: true,
     cursor: "",
-    delay: 30,
+    delay: 50,
   });
 }
 
@@ -16,8 +16,10 @@ function generatePoem(event) {
   let prompt = `User instrucions: generate brief American poem with ${instructionsInput.value} and include the name of the author at the end.`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=8d9c6f00c08bcb1a3bo8fd87a4d1b4t6`;
 
+  let boxElement = document.querySelector("main");
+  boxElement.style.display = "block";
   let poemElement = document.querySelector("#poem");
-  poemElement.innerHTML = "Generating a poem for you...";
+  poemElement.innerHTML = `<div class="generating">⏳ Generating a poem with a keyword of ${instructionsInput.value}</div>`;
 
   axios.get(apiUrl).then(displayPoem);
 }
