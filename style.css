@@ -87,8 +87,12 @@ form {
 footer {
   margin-top: 500px;
   font-size: 15px;
-
-  color: black;
+text-align: center;
+  color:white;
+}
+footer a{
+  text-decoration: none;
+  color: #7cad8e;
 }
 @media (max-width: 800px) {
   header {
@@ -97,13 +101,13 @@ footer {
     padding: 0 20px 30px ;
   }
   h1 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 10px;
   padding-top: 20px;
   }
 main{
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
 }
   .emoji {
     font-size: 20px;
