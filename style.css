@@ -1,16 +1,12 @@
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(27, 27, 79) 11.2%,
-    rgb(120, 201, 244) 100.2%
-  );
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
   background-repeat: no-repeat;
   text-align: center;
   font-family: "Bitter", serif;
 }
 h1 {
   margin-top: 80px;
-  color: rgb(10, 8, 131);
+  color: #86003C;
   padding-top: 10px;
   line-height: 1.5;
   font-size: 40px;
@@ -30,10 +26,10 @@ header {
 main {
   background: #fafaf3;
   border-radius: 8px;
-  color: #2b4450;
+  color:#86003C;
   padding-bottom: 25px;
   max-width: 600px;
-  border-left: 10px solid #393e46;
+  border-left: 10px solid ;
   margin: 0 auto;
   box-shadow: 10px 10px 20px rgba(7, 7, 7, 0.2);
   display: none;
@@ -55,7 +51,7 @@ form {
 }
 .click {
   padding: 10px;
-  background: #fcbe39;
+  background: #FF8BA0;
   color: white;
   border: none;
   width: 90px;
