@@ -7,8 +7,10 @@ function displayPoem(response) {
   });
 }
 
+
+
 function generatePoem(event) {
-  event.preventDefault();
+event.preventDefault();
 
   let instructionsInput = document.querySelector("#instructions");
   let context =
@@ -23,5 +25,6 @@ function generatePoem(event) {
 
   axios.get(apiUrl).then(displayPoem);
 }
+
 let poemFormElement = document.querySelector("#searching");
 poemFormElement.addEventListener("submit", generatePoem);
